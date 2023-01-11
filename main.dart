@@ -6,7 +6,7 @@ main () {
   for (int edgecasenumber = 0; edgecasenumber<8; edgecasenumber++) {
     var card = edgecases(edgecasenumber)['input']['cards'];
     var query = edgecases(edgecasenumber)['input']['query'];
-    var output = locate_card(edgecases(edgecasenumber)['input']['cards'], edgecases(edgecasenumber)['input']['query']);
+    var output = locate_card_new(edgecases(edgecasenumber)['input']['cards'], edgecases(edgecasenumber)['input']['query']);
     var actual_ans = edgecases(edgecasenumber)['output'];
     var outcome = output==actual_ans;
     if (outcome) {

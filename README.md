@@ -7,7 +7,7 @@ You can run the main file by running the command `dart main.dart` in the linux t
 
 ## Some Questions To Try Out
 1. Try making the `locate_card_new` function without the `if` statement before the `while` loop.
-2. Try changing the `locate_card_new` to `locate_card` in the main function in the `main.dart` file. Can use explain why it is giving null in edge case number 4?
+2. Try changing the `locate_card_new` to `locate_card` in the `main` function in the `main.dart` file. Can use explain why it is giving null in edge case number 4 (try spotting the logical error)? On changing it to `locate_card_again`, it reacts right on edge case 4.
 3. Edit `locate_card` to pass all the edge cases and try adding and testing it on any new edge case (if you could think of any new).
 
 ## References
